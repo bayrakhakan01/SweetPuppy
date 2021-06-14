@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loop Childeren</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-over">
+      <img
+        src="./img/game-over.png"
+        alt=""
+        srcset=""
+        class="gO hide element-animation"
+      />
+
+      <input
+        type="submit"
+        value="Play Again"
+        id="play"
+        class="hide element-animation btnCss"
+      />
+    </div>
+
+    <div class="grid-container">
+      <header>
+        <div class="main-head">
+          <h1 id="main-word">Sweet Puppy</h1>
+        </div>
+      </header>
+      <div class="content2">
+        <div class="word wrap"></div>
+        <div class="parents">
+          <div class="child c1">
+            <img
+              id="img1"
+              src="./img/sweet-puppy.png"
+              alt="sweet-puppy"
+              class="element-animation base"
+            />
+            <!-- <canvas class="new-can hide"></canvas> -->
+          </div>
+          <div class="child c2">
+            <img
+              id="img2"
+              src="./img/stairs.png"
+              alt="sweet-puppy"
+              class="element-animation"
+            />
+            <!-- <canvas class="new-can"></canvas> -->
+          </div>
+          <div class="child c3">
+            <img
+              id="img3"
+              src="./img/stairs.png"
+              alt="sweet-puppy"
+              class="element-animation"
+            />
+            <!-- <canvas class="new-can"></canvas> -->
+          </div>
+          <div class="child c4">
+            <img
+              id="img4"
+              src="./img/stairs.png"
+              alt="sweet-puppy"
+              class="element-animation"
+            />
+            <!-- <canvas class="new-can"></canvas> -->
+          </div>
+          <div class="c5">
+            <img
+              id="img5 "
+              src="./img/shark.png"
+              alt="shark"
+              class="sh element-animation base"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="content3">
+        <div class="wrapper">
+          <form class="form1">
+            <label for="fname">Enter the word:</label>
+            <input
+              type="password"
+              id="inp1"
+              value=""
+              placeholder="Enter the word"
+              autofocus
+            />
+            <input type="submit" id="addBtn" value="Add" class="btnCss" />
+          </form>
+          <br />
+          <form class="form2 hide">
+            <label for="fname">Guess a letter:</label>
+            <input
+              type="text"
+              id="inp2"
+              value=""
+              placeholder="Enter a character"
+            />
+            <input type="submit" id="checkBtn" value="Check" class="btnCss" />
+          </form>
+          <input type="submit" id="showBtn" value="Show" class="btnCss" />
+
+          <button class="leftBtn btnCss">Left</button>
+          <button class="rightBtn btnCss">Right</button>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <h2>Motivational Section:</h2>
+          <h3>
+            “All our dreams can come true, if we have the courage to pursue
+            them.” – Walt Disney
+          </h3>
+        </div>
+      </footer>
+    </div>
+
+    <!--   <script src="app.js"></script> -->
+    <script src="app.js"></script>
+  </body>
+</html>
